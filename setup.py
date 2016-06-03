@@ -6,6 +6,6 @@ setup(
     packages=['chorddht',],
     scripts=['chorddht/bin/chordnode',],
     license='MIT',
-    long_description=open('README.md').read(),
+    long_description=open('README.rst').read(),
     install_requires=['zerorpc',],
 )
